@@ -116,13 +116,27 @@ p {
 
 /* All BANNER-SEC-IMAGE-OPEN */
 
-.ban-img {
-    background-image: url(..//Images/banner.png);
+/* .ban-img {
+    background-image: url(../images/banner.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 170px 0px;
-}
+} */
+.banner-sec-all{
+    position: relative;
+  }
+  
+ 
+  .banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff; /* Adjust text color as needed */
+    z-index: 1; /* Keeps the text on top of the image */
+  }
+  
 
 
 /* ----------- Custom Css Close -------------- */
@@ -194,9 +208,6 @@ p {
 .carousel-caption {
     height: 80%;
 }
-
-
-
 
 /* BanSec-Close */
 
